@@ -8,6 +8,9 @@ module.exports = {
 				// eslint-disable-next-line global-require
 				implementation: require("sass"),
 			},
+			css: {
+				url: false,
+			},
 		},
 	},
 };
